@@ -1,0 +1,292 @@
+/* Toast容器样式 */
+#toast-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    pointer-events: none;
+}
+
+/* Toast基本样式 */
+.toast {
+    display: flex;
+    align-items: center;
+    min-width: 250px;
+    max-width: 80vw;
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Toast图标样式 */
+.toast-icon {
+    margin-right: 12px;
+    font-size: 24px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Toast消息样式 */
+.toast-message {
+    flex: 1;
+}
+
+/* 成功类型 */
+.toast-success {
+    background: linear-gradient(135deg, rgba(0, 184, 148, 0.9), rgba(0, 148, 118, 0.9));
+    border-left: 5px solid rgb(0, 214, 173);
+}
+
+/* 错误类型 */
+.toast-error {
+    background: linear-gradient(135deg, rgba(235, 59, 90, 0.9), rgba(190, 46, 73, 0.9));
+    border-left: 5px solid rgb(255, 82, 114);
+}
+
+/* 警告类型 */
+.toast-warning {
+    background: linear-gradient(135deg, rgba(250, 130, 49, 0.9), rgba(221, 91, 14, 0.9));
+    border-left: 5px solid rgb(255, 152, 67);
+}
+
+/* 信息类型 */
+.toast-info {
+    background: linear-gradient(135deg, rgba(25, 118, 210, 0.9), rgba(18, 82, 148, 0.9));
+    border-left: 5px solid rgb(46, 144, 242);
+}
+
+/* 出现动画 */
+.toast-appear {
+    animation: toast-in 0.4s cubic-bezier(0.21, 1.02, 0.73, 1) forwards;
+    transform: scale(0.6);
+    opacity: 0;
+}
+
+/* 消失动画 */
+.toast-disappear {
+    animation: toast-out 0.3s cubic-bezier(0.06, 0.71, 0.55, 1) forwards;
+}
+
+@keyframes toast-in {
+    0% {
+        transform: scale(0.6) translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes toast-out {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.8) translateY(-20px);
+        opacity: 0;
+    }
+}
+
+
+
+/* 帮助模态框样式 */
+.help-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s ease;
+}
+
+.help-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(3px);
+}
+
+.help-modal {
+    position: relative;
+    background-color: #23272f;
+    color: #e3e3e3;
+    width: 90%;
+    max-width: 500px;
+    max-height: 80%;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    animation: slideUp 0.3s ease;
+    z-index: 1001;
+}
+
+.help-modal-header {
+    padding: 16px 20px;
+    background-color: #343a46;
+    border-bottom: 1px solid #3a3f4b;
+}
+
+.help-modal-header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.help-modal-content {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 300px;
+    background-color: #23272f;
+    
+    /* 自定义滚动条样式 */
+    scrollbar-width: thin;
+    scrollbar-color: #4a5568 #23272f;
+}
+
+/* Webkit浏览器自定义滚动条 */
+.help-modal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.help-modal-content::-webkit-scrollbar-track {
+    background: #2d333f;
+    border-radius: 4px;
+}
+
+.help-modal-content::-webkit-scrollbar-thumb {
+    background-color: #4a5568;
+    border-radius: 4px;
+    border: 2px solid #2d333f;
+}
+
+.help-modal-content::-webkit-scrollbar-thumb:hover {
+    background-color: #61dafb;
+}
+
+.help-modal-content p {
+    margin: 0;
+    line-height: 1.6;
+    color: #e3e3e3;
+}
+
+.help-modal-footer {
+    padding: 16px 20px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #3a3f4b;
+    background-color: #343a46;
+}
+
+.help-button {
+    padding: 8px 20px;
+    background-color: #61dafb;
+    color: #23272f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.help-button:hover {
+    background-color: #4ecbee;
+    transform: translateY(-1px);
+}
+
+.help-button:active {
+    transform: translateY(1px);
+}
+
+/* 亮色主题样式 - 为将来可能的主题切换保留 */
+.help-modal.light-theme {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.help-modal.light-theme .help-modal-header {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eee;
+}
+
+.help-modal.light-theme .help-modal-header h2 {
+    color: #333;
+}
+
+.help-modal.light-theme .help-modal-content {
+    background-color: #fff;
+    scrollbar-color: #bdbdbd #f1f1f1;
+}
+
+.help-modal.light-theme .help-modal-content p {
+    color: #555;
+}
+
+.help-modal.light-theme .help-modal-footer {
+    border-top: 1px solid #eee;
+    background-color: #f8f8f8;
+}
+
+.help-modal.light-theme .help-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.help-modal.light-theme .help-button:hover {
+    background-color: #45a049;
+}
+
+/* 帮助模态框动画 */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* 移动端响应式 */
+@media (max-width: 576px) {
+    .help-modal {
+        width: 95%;
+        max-height: 90%;
+    }
+    
+    .help-modal-content {
+        max-height: 250px;
+    }
+} 

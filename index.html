@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Link Game</title>
+    <link rel="stylesheet" href="resource/css/style.css">
+    <link rel="stylesheet" href="resource/css/confetti.css">
+    <link rel="stylesheet" href="resource/css/welcome.css">
+    <link rel="stylesheet" href="resource/css/toast.css">
+</head>
+<body>
+    <!-- Welcome Screen -->
+    <div id="welcomeScreenContainer">
+        <!-- Welcome Screen Module -->
+        <div class="welcome-screen" id="welcomeScreen">
+
+            <!-- Floating Gold Star Icons -->
+            <div class="floating-icon"></div>
+            <div class="floating-icon"></div>
+            <div class="floating-icon"></div>
+            <div class="floating-icon"></div>
+            <div class="floating-icon"></div>
+            <div class="floating-icon"></div>
+
+            <!-- Star Decorations -->
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+
+            <h1 class="welcome-title">Animal Link Game</h1>
+            <button class="start-button" id="startButton">Start Game</button>
+        </div>
+    </div>
+    
+    <!-- Game Main Interface -->
+    <div id="gameContainer">
+        <!-- Game Main Interface Module -->
+        <div class="game-container" style="display:none;">
+            <div class="header">
+                <h1>Animal Link Game</h1>
+                <div class="controls">
+                    <div class="controls_left">
+
+                        <select id="fillMode">
+                            <option value="none">01.Stay in Place</option>
+                            <option value="left">02.Move Left</option>
+                            <option value="right">03.Move Right</option>
+                            <option value="down">04.Move Down</option>
+                            <option value="up">05.Move Up</option>
+                            <option value="split-horizontal">06.Split Horizontal</option>
+                            <option value="split-vertical">07.Split Vertical</option>
+                            <option value="center-horizontal">08.Center Horizontal</option>
+                            <option value="center-vertical">09.Center Vertical</option>
+                            <option value="top-left-bottom-right">10.Top Left Bottom Right</option>
+                            <option value="top-right-bottom-left">11.Top Right Bottom Left</option>
+                            <option value="left-up-right-down">12.Left Up Right Down</option>
+                            <option value="left-down-right-up">13.Left Down Right Up</option>
+                            <option value="outward">14.Outward</option>
+                            <option value="center">15.Center</option>
+                        </select>
+                        
+                        <div class="score">Score: <span id="score">0</span></div>
+                        <div class="timer">Combo: <span id="lianji">0</span></div>
+                        <div class="timer">Time: <span id="time">0</span></div>                      
+
+                    </div>
+                    <div class="controls_right">
+
+                        <button id="help" data-tooltip="Help (H)">❓</button>
+                        <button id="hint" data-tooltip="Hint (Space)">💡</button>
+                        <button id="refresh" data-tooltip="Refresh Board (R)">🌀</button>
+                        <button id="restart" data-tooltip="Restart (Enter)">🌟</button>
+                        <button id="musicToggle" class="music-toggle" data-tooltip="Mute/Unmute (M)">🔊</button>
+                        <button id="soundToggle" class="sound-toggle" data-tooltip="Mute/Unmute (M)">♪</button>
+                    </div>
+                </div>
+            </div>
+            <div class="board" id="board"></div>
+        </div>
+    </div>
+    
+    <!-- Game Result Modal Window -->
+    <div id="resultModalContainer">
+        <!-- Game Over Modal Window -->
+        <div class="modal-overlay" id="resultModal">
+            <div class="result-modal">
+                <div class="confetti-container" id="confettiContainer"></div>
+                <h2 class="result-title">Congratulations!</h2>
+                <div class="result-content">You have successfully completed all matches!</div>
+                
+                <div class="result-stats">
+                    <div class="stat-item">
+                        <div class="stat-label">Score</div>
+                        <div class="stat-value" id="finalScore">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Combo</div>
+                        <div class="stat-value" id="finalCombo">0</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Time</div>
+                        <div class="stat-value" id="finalTime">0:00:00</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Total Time</div>
+                        <div class="stat-value" id="finalTotalTime">0:00:00</div>
+                    </div>
+
+                </div>
+                
+                <button class="close-button" id="closeModal">Play Again</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Import JavaScript Files -->
+    <script src="userConfig/userConfig.js"></script>
+    <script src="resource/data/lang.js"></script>
+    <script src="resource/data/systemConfig.js"></script>
+    <script src="resource/js/confetti.js"></script>
+    <script src="resource/js/shortcutKey.js"></script>
+    <script src="resource/js/prepareLang.js"></script>
+    <script src="resource/js/function.js"></script>
+    <script src="resource/js/main.js"></script>
+    <script src="resource/js/path.js"></script>
+    <script src="resource/js/fill.js"></script>
+    <script src="resource/js/board.js"></script>
+    <script src="resource/js/music.js"></script>
+    <script src="resource/js/click.js"></script>
+    <script src="resource/js/drawline.js"></script>
+    <script src="resource/js/endgame.js"></script>
+    <script src="resource/js/toast.js"></script>
+
+
+</body>
+</html>
