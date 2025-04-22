@@ -59,10 +59,15 @@
    ## 游戏截图
    
    ![欢迎进入游戏卡片 welcome card](demo/llk_7ree_demo_01.jpg)
+   欢迎进入游戏卡片 welcome card
    ![PC screenshot](demo/llk_7ree_demo_02.jpg)
+   电脑版截图 PC screenshot
    ![mobile screenshot](demo/llk_7ree_demo_03.jpg)
+   手机版截图 mobile screenshot
    ![success card](demo/llk_7ree_demo_04.jpg)
+   过关成绩结算卡片success card
    ![参数设置页面（这一部分仅限discuz插件版本 https://addon.dismall.com/?@llk.plugin ，当然如果不用discuz插件版，你也可以在userConfig\userConfig.js中设定参数）Settings Page (This section is only applicable to the Discuz plugin version: https://addon.dismall.com/?@llk.plugin. Of course, if you're not using the Discuz plugin version, you can also configure the parameters in `userConfig/userConfig.js`.)](demo/llk_7ree_demo_05.jpg)
+   参数设置页面（这一部分仅限discuz插件版本 https://addon.dismall.com/?@llk.plugin ，当然如果不用discuz插件版，你也可以在userConfig\userConfig.js中设定参数）Settings Page (This section is only applicable to the Discuz plugin version: https://addon.dismall.com/?@llk.plugin. Of course, if you're not using the Discuz plugin version, you can also configure the parameters in `userConfig/userConfig.js`.)
 
 
 ## English Description
