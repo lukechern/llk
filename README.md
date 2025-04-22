@@ -55,3 +55,68 @@
 你们的智慧之光，让这个小小的链接世界充满无限可能，也让这款游戏更加精彩纷呈！🚀
 
 本游戏软件素材使用了twEmoji和openEmoji库，特别感谢；
+
+
+
+
+## English Description
+
+# Animal Link-Link AI HD Remastered Invincible Edition
+
+**Animal Link-Link AI HD Remastered Invincible Edition** is a casual browser game carefully designed and developed by Qirui. It's a public welfare, open-source, and free-to-share project aimed at providing everyone with a relaxing “slacking off” moment. May you enjoy the sweet memories of childhood and the simple joys of life amidst your busy work or study! 🎉🧸
+
+---
+
+## 🎮 Game Feature 1: Classic Gameplay, Nostalgic Vibes, Emotional Throwback
+
+🔗 Faithfully recreates the core mechanics of traditional Link-Link games — tap to connect, match and eliminate fast! The familiar feel brings you right back to childhood. No complicated rules, zero learning curve for beginners, and veterans can still go for high combos and epic scores. Relive the long-lost innocence and pure fun. 🎯
+
+---
+
+## 💪 Game Feature 2: Invincible Mode, Unlimited Lives, Unlimited Hints, Unlimited Time
+
+Introducing the brand new **Invincible Mode**! Say goodbye to traditional level stress — unlimited lives let you explore every stage without worry; unlimited hints mean you're never stuck; unlimited time gives you the freedom to slow down, think, and win at your own pace. Play freely and enjoy the most relaxing experience ever! ⌛✨
+
+---
+
+## 🌟 Game Feature 3: Vector SVG Icons, Lossless HD Scaling, Interactive Effects, Lovely Music, Epic Sound FX
+
+All animal icons are designed in vector SVG format, allowing for sharp, lossless scaling at any size. Matching tiles triggers beautiful animations and dazzling light effects, making every connection feel fresh and exciting. Paired with pleasant background music and immersive sound effects, you get a delightful audiovisual experience. 🎶🔊
+
+---
+
+## 🎨 Game Feature 4: Adjustable Grid Size, Tile Images, Tile Color Themes – Fully Customizable
+
+Ultra-high freedom: players can freely adjust the grid dimensions and difficulty levels, from casual play to brain-teasing challenges. The tile images and theme color schemes are customizable in the backend, allowing you to create a one-of-a-kind, personalized Link-Link game. 🔧🎨
+
+---
+
+## 📱💻 Game Feature 5: Desktop & Mobile Compatible, Instant Play, No Download, No Installation
+
+Fully compatible with Windows, Mac, Android, iOS, and more. Just open the webpage with one click and play instantly — no plugins, no installations needed. Truly lightweight and convenient, ready to play anytime, anywhere! 🌐⚡
+
+---
+
+## 💡 Friendly Reminder: Powered by Love, Shared for Good, No Commercial Service
+
+This game is built with love and shared as a public welfare project. It is completely free and open source, and offers no commercial services or technical support. If you encounter issues, feel free to discuss and help each other in the community — please understand that the developer team maintains this voluntarily. Thank you for your understanding and support! 🙏
+
+---
+
+## ❤️ Special Thanks:
+
+Sincere thanks to the following AI and tech teams for their valuable support (in no particular order):
+
+- Claude-3.7-sonnet  
+- Gemini-2.5-pro  
+- GPT-4o  
+- DeepSeek-v3  
+- Cursor  
+- Trae  
+- Tongyi Lingma (通义灵码)
+
+Your brilliance brings infinite possibilities to this little world of connections, making the game even more exciting and vibrant! 🚀
+
+This game uses assets from the **twEmoji** and **openEmoji** libraries — with special thanks!
+
+
