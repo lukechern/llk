@@ -42,7 +42,7 @@
 
 ## ❤️ 特别感谢：  
 
-衷心感谢以下 AI 与技术团队提供的重要技术支援（排名不分先后）：
+❤️ 衷心感谢以下 AI 与技术团队提供的重要技术支援（排名不分先后）：
 
 - Claude-3.7-sonnet  
 - Gemini-2.5-pro  
@@ -54,7 +54,8 @@
 
 你们的智慧之光，让这个小小的链接世界充满无限可能，也让这款游戏更加精彩纷呈！🚀
 
-本游戏软件素材使用了twEmoji和openEmoji库，特别感谢；
+❤️ 本游戏软件素材使用了twEmoji库、openEmoji库以及一些网络搜集的免费音乐、音效，特别感谢；
+
 
    ## 游戏截图
    
@@ -139,6 +140,6 @@ Sincere thanks to the following AI and tech teams for their valuable support (in
 
 Your brilliance brings infinite possibilities to this little world of connections, making the game even more exciting and vibrant! 🚀
 
-This game uses assets from the **twEmoji** and **openEmoji** libraries — with special thanks!
+This game uses assets from the **twEmoji**, **openEmoji** libraries and some free music and sound effects collected from the Internet — with special thanks!
 
 

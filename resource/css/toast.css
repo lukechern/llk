@@ -195,6 +195,15 @@
     color: #e3e3e3;
 }
 
+.help-modal-content p a{
+    color: #61dafb;
+    font-size: 0.7em;
+}
+
+.help-modal-content p a:hover{
+    color: #4ecbee;
+}
+
 .help-modal-footer {
     padding: 16px 20px;
     display: flex;
