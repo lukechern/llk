@@ -1,6 +1,12 @@
 # 小动物连连看 AI 高清重制无敌版
 
-**小动物连连看 AI 高清重制无敌版**，是由柒瑞精心设计与开发的一款公益开源、免费分享的休闲网页小游戏，旨在为大家提供轻松愉快的“摸鱼”时光，愿你在繁忙工作与学习之余，也能享受童年的美好回忆与简单的快乐！🎉🧸
+**小动物连连看 AI 高清重制无敌版**，是由柒瑞精心设计与开发的一款公益开源、免费分享的休闲网页小游戏，旨在为大家提供轻松愉快的"摸鱼"时光，愿你在繁忙工作与学习之余，也能享受童年的美好回忆与简单的快乐！🎉🧸
+
+## 获取方式
+
+- **GitHub仓库**：[https://github.com/lukechern/llk](https://github.com/lukechern/llk)
+- **NPM安装**：`npm i aillk`
+- **Discuz!插件版**：[https://addon.dismall.com/plugins/llk.html](https://addon.dismall.com/plugins/llk.html)
 
 ---
 
@@ -12,7 +18,7 @@
 
 ## 💪 游戏特色二：超级无敌、不限生命、无限提示、无限时间  
 
-全新“无敌模式”来袭！告别传统闯关压力，无限生命助你无忧探索每一关；无限提示随时求助，不再卡关焦虑；无限时间让你放慢节奏，慢慢思考、轻松取胜。纵情畅玩，打造最无拘束的休闲体验！⌛✨
+全新"无敌模式"来袭！告别传统闯关压力，无限生命助你无忧探索每一关；无限提示随时求助，不再卡关焦虑；无限时间让你放慢节奏，慢慢思考、轻松取胜。纵情畅玩，打造最无拘束的休闲体验！⌛✨
 
 ---
 
@@ -36,7 +42,7 @@
 
 ## 💡 温馨提示：为爱发电，公益分享，没有服务  
 
-本游戏秉承“为爱发电”的公益理念，完全免费开源分享，不提供商业服务与技术支持。如在使用过程中遇到问题，欢迎在社区互助交流，但请理解作者团队无偿维护，感谢大家的理解与支持！🙏
+本游戏秉承"为爱发电"的公益理念，完全免费开源分享，不提供商业服务与技术支持。如在使用过程中遇到问题，欢迎在社区互助交流，但请理解作者团队无偿维护，感谢大家的理解与支持！🙏
 
 ---
 
@@ -86,7 +92,13 @@
 
 # Animal Link-Link AI HD Remastered Invincible Edition
 
-**Animal Link-Link AI HD Remastered Invincible Edition** is a casual browser game carefully designed and developed by Qirui. It's a public welfare, open-source, and free-to-share project aimed at providing everyone with a relaxing “slacking off” moment. May you enjoy the sweet memories of childhood and the simple joys of life amidst your busy work or study! 🎉🧸
+**Animal Link-Link AI HD Remastered Invincible Edition** is a casual browser game carefully designed and developed by Qirui. It's a public welfare, open-source, and free-to-share project aimed at providing everyone with a relaxing "slacking off" moment. May you enjoy the sweet memories of childhood and the simple joys of life amidst your busy work or study! 🎉🧸
+
+## How to Get
+
+- **GitHub Repository**: [https://github.com/lukechern/llk](https://github.com/lukechern/llk)
+- **NPM Installation**: `npm i aillk`
+- **Discuz! Plugin Version**: [https://addon.dismall.com/plugins/llk.html](https://addon.dismall.com/plugins/llk.html)
 
 ---
 

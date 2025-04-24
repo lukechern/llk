@@ -1,0 +1,28 @@
+{
+  "name": "aillk",
+  "version": "1.0.0",
+  "description": "小动物连连看 AI 高清重制无敌版 Animal Link-Link AI HD Remastered Invincible Edition",
+  "main": "index.html",
+  "scripts": {
+    "test": "info: no test specified"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukechern/llk.git"
+  },
+  "keywords": [
+    "小动物连连看",
+    "连连看",
+    "高清重制",
+    "无敌",
+    "link-link",
+    "GAME"
+  ],
+  "author": "7ree",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/lukechern/llk/issues"
+  },
+  "homepage": "https://github.com/lukechern/llk#readme"
+}
