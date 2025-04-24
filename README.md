@@ -5,7 +5,10 @@
 ## 获取方式
 
 - **GitHub仓库**：[https://github.com/lukechern/llk](https://github.com/lukechern/llk)
-- **NPM安装**：`npm i aillk`
+- **NPM安装**：
+  ```
+  npm i aillk
+  ```
 - **Discuz!插件版**：[https://addon.dismall.com/plugins/llk.html](https://addon.dismall.com/plugins/llk.html)
 
 ---
@@ -97,7 +100,10 @@
 ## How to Get
 
 - **GitHub Repository**: [https://github.com/lukechern/llk](https://github.com/lukechern/llk)
-- **NPM Installation**: `npm i aillk`
+- **NPM Installation**: 
+  ```
+  npm i aillk
+  ```
 - **Discuz! Plugin Version**: [https://addon.dismall.com/plugins/llk.html](https://addon.dismall.com/plugins/llk.html)
 
 ---
